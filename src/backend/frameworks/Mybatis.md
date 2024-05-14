@@ -71,7 +71,7 @@ Hibernate是全自动 ORM 映射工具：
 
 2. 配置数据源（连接的数据库）
 
-   为了更好地管理连接，一般将连接参数放在jdbc.properties 文件中，在<configuration>下面（顺序重要！）使用如下配置：
+   为了更好地管理连接，一般将连接参数放在jdbc.properties 文件中，在<configuration\>下面（顺序重要！）使用如下配置：
 
    ```
    <properties resource="jdbc.properties"/>
@@ -208,7 +208,7 @@ ${param}：拼接sql语句的方式，有sql注入的风险
 
 ##### where if:
 
-and要放在每个<if>语句中字段的前面
+and要放在每个<if\>语句中字段的前面
 
 ```java
 select * from employee
