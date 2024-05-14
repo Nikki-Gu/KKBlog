@@ -7,14 +7,14 @@ export default hopeTheme({
 
   author: {
     name: "KK",
-    // url: "https://mister-hope.com",
+    url: "https://github.com/Nikki-Gu",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://nikki-article-pic.oss-cn-beijing.aliyuncs.com/blog-theme-assets/headImg.JPG",
+  // logo: "https://nikki-article-pic.oss-cn-beijing.aliyuncs.com/blog-theme-assets/headImg.JPG",
 
-  repo: "https://github.com/Nikki-Gu",
+  repo: "https://github.com/Nikki-Gu/KKBlog",
   repoLabel: "GitHub",
   repoDisplay: true,
 
