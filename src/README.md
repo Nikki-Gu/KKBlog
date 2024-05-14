@@ -12,7 +12,7 @@ tagline: 「深度学习 + Java后端」个人学习成长笔记
 actions:
   - text: 开始阅读
     icon: lightbulb
-    link: ./java/
+    link: ./backend/
     type: primary
 
   - text: 刷题笔记

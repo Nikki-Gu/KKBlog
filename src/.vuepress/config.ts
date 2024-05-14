@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/KKBlog/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "KK's Blog",
+  description: "KK的个人博客",
 
   theme,
 
