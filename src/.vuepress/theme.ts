@@ -75,34 +75,52 @@ export default hopeTheme({
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
-      align: true,
-      attrs: true,
-      codetabs: true,
-      component: true,
-      demo: true,
+
+      demo: {  // 演示
+        jsfiddle: false,
+        codepen: false,
+      },
+
+      katex: true, // latex支持
+      sub: true, // 上角标
+      sup: true, // 下角标
+
+      tasklist: true, // 任务列表支持
+      mark: true, // ==高亮==
+
+      tabs: true, // 选项卡 ::: tabs @tab 标题 1 :::
+
+      
+
+      // 图片相关
       figure: true,
       imgLazyload: true,
       imgSize: true,
-      include: true,
-      mark: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      tasklist: true,
-      vPre: true,
+      // imgMark
+
+      // align: true,
+      // attrs: true,
+      // codetabs: true,
+      // component: true,
+      // include: true,
+      // vPre: true,
+      // stylize: [
+      //   {
+      //     matcher: "Recommended",
+      //     replacer: ({ tag }) => {
+      //       if (tag === "em")
+      //         return {
+      //           tag: "Badge",
+      //           attrs: { type: "tip" },
+      //           content: "Recommended",
+      //         };
+      //     },
+      //   },
+      // ],
+
+      
+      
+      
 
       // 在启用之前安装 chart.js
       // chart: true,
