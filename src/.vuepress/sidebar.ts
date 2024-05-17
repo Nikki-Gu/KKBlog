@@ -23,6 +23,27 @@ export default sidebar({
       prefix: "database/",
       children: "structure",
     },
+    {
+      text: "框架学习",
+      icon: "book",
+      collapsible: true,
+      prefix: "frameworks/",
+      children: "structure",
+    },
+    {
+      text: "开发工具",
+      icon: "hand",
+      collapsible: true,
+      prefix: "devtools/",
+      children: "structure",
+    },
+    {
+      text: "系统设计",
+      icon: "sliders",
+      collapsible: true,
+      prefix: "system-design/",
+      children: "structure",
+    },
   ] ,
   "/deeplearning/" :[
     {
@@ -49,4 +70,5 @@ export default sidebar({
       children: "structure",
     },
   ],
+  "/reading/": "structure",
 });

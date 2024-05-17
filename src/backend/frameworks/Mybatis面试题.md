@@ -1,3 +1,10 @@
+---
+title: Mybatis面试题
+order: 2
+
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+---
+
 
 
 ## Dao接口的工作原理？

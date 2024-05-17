@@ -18,6 +18,11 @@ export default navbar([
     link: "/algorithm/README.md"
   },
   {
+    text: "阅读思考",
+    icon: "book",
+    link: "/reading/README.md"
+  },
+  {
     text: "关于本站",
     icon: "circle-info",
     prefix: "/intro/",

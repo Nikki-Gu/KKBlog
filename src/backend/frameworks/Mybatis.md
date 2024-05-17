@@ -1,3 +1,12 @@
+---
+title: Mybatis
+order: 1
+
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+---
+
+
+
 # Mybatis
 
 ### ORM对象关系映射

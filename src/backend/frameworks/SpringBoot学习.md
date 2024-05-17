@@ -1,3 +1,12 @@
+---
+title: SpringBoot
+order: 4
+
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+---
+
+
+
 # Spring Boot
 
 修改pom.xml文件后需要刷新maven
@@ -50,10 +59,13 @@
 
 ### Controller
 
-`@Controller`：处理客户端的web请求
+`@Controller`：处理客户端的web请求，可以返回数据和视图
 
-- `@RestController`：`@Controller`和`@ResponseBody`的组合注解，表示处理后有返回结果
-  - `@ResponseBody`：指示方法返回值自动序列化后作为HTTP响应内容；通常与 RESTful Web 服务一起使用，用于返回 JSON 或 XML 格式的数据
+目前使用的"前后端分离"模式中，一般后端不处理前端视图，所以常用的是`@RestController`
+
+`@RestController`：`@Controller`和`@ResponseBody`的组合注解，表示处理后有返回结果
+
+- `@ResponseBody`：指示方法返回值自动序列化后作为HTTP响应内容；通常与 RESTful Web 服务一起使用，用于返回 JSON 或 XML 格式的数据；不进行视图渲染
 
 ### RequestMapping
 
@@ -71,22 +83,6 @@
   - `@PutMapping`：`@RequestMapping(method = RequestMethod.PUT)`
 
 - 支持请求参数和头部参数匹配（啥意思？）
-
-### 请求类型参数相关注解：
-
-1. 请求体：一般为POST 或 PUT 请求
-
-   使用注解`@RequestBody`：将请求体中的数据转换为特定类型的 Java 对象，并作为方法的参数传递。
-
-   更详细一点就是：指示一个方法参数是一个对象，这个对象是从 HTTP 请求体中获取数据，并进行反序列化后得到的Java对象
-
-2. Path类型：Path类型，`/{id}`直接跟参数
-
-   使用注解`@PathVariable` ：从请求路径URL中获取变量值，并将其映射到方法参数上；指示处理包含变量的URL请求
-
-3. Query类型：`?key=value`，不需要使用注解
-
-   比如分页查询的URL为：`http://localhost:8080/admin/employee/page?name=string&page=0&pageSize=0`  
 
 ### @Autowired
 
