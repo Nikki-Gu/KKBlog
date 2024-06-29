@@ -1,3 +1,13 @@
+---
+title: Maven
+order: 3
+
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+
+---
+
+
+
 ### Maven的作用
 
 1. 提供标准的、跨平台的自动化项目构建方式

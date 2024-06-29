@@ -1,4 +1,10 @@
-### SQLite和MySQL的对比
+---
+title: SQLite和MySQL的对比
+order: 6
+
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+
+---
 
 | 对比     | MySQL                      | SQLite                                     |
 | -------- | -------------------------- | ------------------------------------------ |
