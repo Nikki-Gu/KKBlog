@@ -1,6 +1,5 @@
 ---
 title: 网站制作
-icon: circle-info
 ---
 
 ## **搭建过程**

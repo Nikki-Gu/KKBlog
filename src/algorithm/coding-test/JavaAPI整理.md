@@ -3,13 +3,10 @@ title: Java API整理
 order: 2
 
 copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+
 ---
 
-
-
-# 常用API
-
-### 包的导入
+### 常用包
 
 ```java
 import java.io.*
@@ -24,7 +21,8 @@ import java.lang.*
 1. `List.toArray(new int[0][0]);` 
 
    将List转换为数组，`int[0][0]`表示动态创建数组，不指定大小
-   前提是List是：`List<int[]>`类型
+
+   List需要声明为`List<int[]>`
 
 2. `Arrays.asList() `是一个Java 的静态方法，它可以把一个数组或者多个参数转换成一个List 集合
 
@@ -36,7 +34,7 @@ import java.lang.*
 
 ## List
 
-https://itmyhome.com/java-api/java/util/List.html
+[官方API文档](https://itmyhome.com/java-api/java/util/List.html)
 
 1. `List<int[]> res = new ArrayList<>();`
 2. `new List(track) `返回track的复制得到的新List
@@ -82,7 +80,7 @@ https://itmyhome.com/java-api/java/util/List.html
    o2, o1 返回正数。
    ```
 
-   只用记住按照参数顺序排列，需要返回负数即可！
+   只用记住：按照参数顺序(o1, o2)排列，需要返回负数
 
 4. `Arrays.toString()`
 
@@ -96,20 +94,23 @@ https://itmyhome.com/java-api/java/util/List.html
 
 2. `length()`
 
-3. `toCharArray()`变为可迭代对象
+3. `charAt(index)`
+
+4. `substring(left, right)` 返回的区间左闭右开[left, right)
+
+5. `String`是不可迭代的，需要`toCharArray()`变为Char数组（可迭代对象）
 
    ```for (char c : t.toCharArray()) ```
 
-4. `charAt(index)`
-5. `substring(left, right)` 返回的是左开右闭[left, right)
 
 
-
-Sting和Char数组：
+### Sting和Char数组的转换
 
 char[] 到String 可以直接`new String(char[] str)`
 
 String到char[] 是 `s.toCharArray()`
+
+
 
 ### StringBuilder
 

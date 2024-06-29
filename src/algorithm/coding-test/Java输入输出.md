@@ -5,21 +5,21 @@ order: 1
 copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
 ---
 
+笔试小技巧：有的case会超时，导致后续可通过case无法进入判定，因此可以在循环中添加超时退出的代码，这样如果当前case超时，则随机输出一些东西并结束循环，让后续case能继续参与判定得分。
 
-
-https://blog.csdn.net/qq_42403042/article/details/107533785
-
-
-
-超时退出：
+代码逻辑：
 
 ```
 static long beginTime = System.currentTimeMillis();
-static long overTime = 0;
-在自己的循环代码中最外层设置：
+static long overTime = 10 * 1000; // 10s
 
+# 在自己的循环代码中最外层添加if判断：
 if ((nowTime - beginTime) > overTime) {
     System.out.println("超时退出");
     break;
 }
 ```
+
+
+
+参考文章：https://blog.csdn.net/qq_42403042/article/details/107533785
