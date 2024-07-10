@@ -88,6 +88,10 @@ import java.lang.*
 
    速度很慢
 
+5. 比较两个数组内容是否相同：`Arrays.equals(tmp_s, tmp_t)`
+
+   不能用`tmp_s.equals(tmp_t)`，因为在Java中，数组对象（包括`char[]`数组）没有自己的`equals`方法实现。数组类型继承自`Object`类，但没有重写`Object`的`equals`方法，因此数组的`equals`方法仍然是`Object`类中的默认实现，也就是比较对象的引用（内存地址）。
+
 ## String
 
 1. 定义：`String s = new String('')` 
