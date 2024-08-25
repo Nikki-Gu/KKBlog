@@ -17,8 +17,6 @@ copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.
 
 3. 搜索**开启应用程序**，双击将其添加到当前快速操作中，**选择**自己想要通过快捷键快速开启的**应用**；**设置输入**为没有输入，位于任何应用程序。
 
-   <img src="/Users/bytedance/Documents/配图1.png" alt="配图1" style="zoom:40%;" />
-
 4. Command + S 保存并重命名这个工作流程为“打开Chrome“
 
 5. 打开**设置**，搜索**键盘快捷键**，选择**服务**-**通用**，双击右侧设置自己喜欢的快捷键，点击完成即可保存
