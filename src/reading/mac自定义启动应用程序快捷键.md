@@ -15,7 +15,9 @@ copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.
 
 2. Command + N 新建文件，选择**快速操作**
 
-3. 搜索**开启应用程序**，双击将其添加到当前快速操作中，**选择**自己想要通过快捷键快速开启的**应用**；**设置输入**为没有输入，位于任何应用程序。
+3. 搜索**开启应用程序**，双击将其添加到当前快速操作中，**选择**自己想要通过快捷键快速开启的**应用**；**设置输入**为没有输入，位于任何应用程序。如下图所示：
+
+   ![](https://my-kk-blog.oss-cn-shanghai.aliyuncs.com/img/mac%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%AF%E5%8A%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%BF%AB%E6%8D%B7%E9%94%AE-%E9%85%8D%E5%9B%BE1.png)
 
 4. Command + S 保存并重命名这个工作流程为“打开Chrome“
 
