@@ -53,6 +53,13 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
+    {
+      text: "数学相关",
+      icon: "book",
+      prefix: "math/",
+      collapsible: true,
+      children: "structure",
+    },
   ],
   "/algorithm/" :[
     {
