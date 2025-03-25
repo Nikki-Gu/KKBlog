@@ -1,3 +1,11 @@
+---
+title: 2024暑期实习TimeLine
+order: 1
+
+copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0协议</a>
+
+---
+
 # 2024暑期实习TimeLine
 
 这篇文章用于记录我经历的2024年的暑期实习找工过程，期间的点滴想法和反思，存在大量主观的意见和判断，仅供记录。
